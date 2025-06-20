@@ -29,9 +29,9 @@ printProduct({ id: 1, title: "Mouse" });
 
 
 let age: number = 25;
+age = 'test';
 let names: string = "Talia";
 let isAdmin: boolean = false;
-
 
 
 
