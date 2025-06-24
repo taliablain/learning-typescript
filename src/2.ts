@@ -43,7 +43,7 @@ function createUser(id: number, name: string) {
 
 type Status = "pending" | "approved" | "rejected";
 let currentStatus: Status = "pending";
-let finalStatus: Status = "done";
+// let finalStatus: Status = "done";
 
 
 enum Role {
@@ -54,7 +54,7 @@ enum Role {
 
 let currentRole: Role = Role.User;
 
-
+//go through types in codebase and demo optional, enums, etc 
 
 
 

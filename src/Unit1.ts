@@ -7,7 +7,7 @@ const uppercasedBarcodeOne = barcodeOne.toUpperCase();
 
 
 const barcodeTwo: number = 1;
-const uppercasedBarcodeTwo = barcodeTwo.toUpperCase();
+// const uppercasedBarcodeTwo = barcodeTwo.toUpperCase();
 
 
 
@@ -22,14 +22,14 @@ function printProduct(product: { id: number; title: string; price: number }) {
 
 
 
-printProduct({ id: 1, title: "Mouse" });
+// printProduct({ id: 1, title: "Mouse" });
 
 
 
 
 
 let age: number = 25;
-age = 'test';
+// age = 'test';
 let names: string = "Talia";
 let isAdmin: boolean = false;
 
@@ -42,7 +42,7 @@ function greetTs(name: string): string {
 }
 
 greetTs("Talia");
-greetTs(42);
+// greetTs(42);
 
 
 
@@ -73,6 +73,8 @@ data = 42; //allowed
 function log(message: string): void {
     console.log(message);
 }
+
+log("****************")
 
 
 //difference between greet in ts and js 
