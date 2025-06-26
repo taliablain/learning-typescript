@@ -29,5 +29,20 @@ function area(shape: Shape) {
 }
 
 
+let input = document.getElementById("username") as HTMLInputElement;
+console.log('input value', input.value)
+
+
+
+
+function greet(name?: string) {
+    if (name) {
+        return `Hello, ${name}`;
+    }
+    return "Hello guest";
+}
+
+
+// name: string | undefined
 
 
